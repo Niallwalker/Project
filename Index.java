@@ -5,14 +5,15 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-3):");
+    System.out.println("Select an option (1-7):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
     System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
-    System.out.println("6. Exit");
+    System.out.println("6. First Array");
+    System.out.println("7. Exit");
 
     System.out.println();
 
@@ -44,6 +45,10 @@ public class Index{
 		System.out.println();
 		Arithmetic.main(null);
 	  case 6:
+		System.out.println("First Array");
+		System.out.println();
+		FirstArray.main(null);
+	  case 7:
         System.out.println("Exiting....");
         break;
       default:
